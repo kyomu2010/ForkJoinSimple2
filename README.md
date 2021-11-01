@@ -1,1 +1,1 @@
-## A java program demonstrating fork-join framework - RecursiveAction
+## A java program demonstrating fork-join framework - RecursiveTask
