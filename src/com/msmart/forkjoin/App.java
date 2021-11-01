@@ -10,8 +10,8 @@ public class App {
 		
 		ForkJoinPool pool = new ForkJoinPool(Runtime.getRuntime().availableProcessors());
 		
-		//SimpleRecursiveTask task = new SimpleRecursiveTask(20);
-		SimpleRecursiveTask task = new SimpleRecursiveTask(120);
+		SimpleRecursiveTask task = new SimpleRecursiveTask(20);
+		//SimpleRecursiveTask task = new SimpleRecursiveTask(120);
 		System.out.println(pool.invoke(task));
 	}
 
